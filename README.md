@@ -1,6 +1,9 @@
-# Welcome to Remix!
+# Welcome to Remix + Supabase SSR!
+
+This repo provides a basic template for creating a fully server-side rendered website using the Supabase SSR package and the Remix framework.
 
 - [Remix Docs](https://remix.run/docs)
+- [Supabase Docs](https://supabase.com/docs)
 
 ## Development
 
