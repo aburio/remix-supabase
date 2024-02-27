@@ -26,50 +26,52 @@ Follow these steps to get your application running:
 
 1.  **Clone the Repository**
 
-    bashCopy code
-
-    `git clone https://github.com/your-github-username/your-repo-name.git cd your-repo-name`
+    ```sh
+    git clone git@github.com:aburio/remix-supabase.git cd remix-supabase
+    ```
 
 2.  **Install Dependencies**
 
     Using npm:
 
-    bashCopy code
-
-    `npm install`
+    ```sh
+    npm install
+    ```
 
     Or using yarn:
 
-    bashCopy code
-
-    `yarn install`
+    ```sh
+    yarn install
+    ```
 
 3.  **Set Up Environment Variables**
 
     Rename the `.env.example` file to `.env`:
 
-    bashCopy code
-
-    `mv .env.example .env`
+    ```sh
+    mv .env.example .env
+    ```
 
     Edit the `.env` file to include your Supabase URL and ANON key:
 
-    - SUPABASE_URL=your_supabase_url
-    - SUPABASE_ANON_KEY=your_supabase_anon_key
+    ```
+    SUPABASE_URL=your_supabase_url
+    SUPABASE_ANON_KEY=your_supabase_anon_key
+    ```
 
 4.  **Run the Development Server**
 
     Start the development server:
 
-    bashCopy code
-
-    `npm run dev`
+    ```sh
+    npm run dev
+    ```
 
     Or if you're using yarn:
 
-    bashCopy code
-
-    `yarn dev`
+    ```sh
+    yarn dev
+    ```
 
     Your application will be running at http://localhost:3000.
 
